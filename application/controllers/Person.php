@@ -2,7 +2,6 @@
 
 use chriskacerguis\RestServer\RestController;
 
-
 class Person extends RestController{
 // construct
   public function __construct(){
