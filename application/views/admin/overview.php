@@ -235,7 +235,7 @@
 						<h2 class="">Contact Info</h2>
 					</hgroup>									
 				</div>
-				<form method="post" action="https://corona.wonosobokab.go.id/contact/send" role="form" class="form">
+				<form method="post" action="local" role="form" class="form">
 					<form>
           <center>
            <div class="col-md-6"> 
@@ -280,8 +280,8 @@
     <div class="duaempat text-white">
       <p>Layanan Kami</p>
     </div>
-    <div class="dualima text-white">
-      <a href="#">Satgas.Covid</a>
+    <div class="dualima">
+      <a class="text-white" href="#">Satgas.Covid</a>
     </div>
   </div>
 
@@ -289,11 +289,11 @@
     <div class="duatujuh text-white">    
       <p>Tentang Kami</p>
     </div>
-    <div class="duasembilan text-white">
-      <a href="#">Profile</a>
+    <div class="duasembilan">
+      <a class="text-white" href="#">Profile</a>
     </div>
     <div class="tigapuluh text-white">
-      <a href="#">Kontak</a>
+      <a class="text-white" href="#">Kontak</a>
     </div>
   </div>
 
@@ -303,19 +303,19 @@
     </div>
     <div class="instagram">
       <i class="fab fa-instagram"></i>
-        <a href="#">Instagram</a>
+        <a class="text-white" href="#">Instagram</a>
     </div>
     <div class="facebook">
       <i class="fab fa-facebook"></i>
-        <a href="#">Facebook</a>
+        <a class="text-white" href="#">Facebook</a>
     </div>
     <div class="twitter">
       <i class="fab fa-twitter"></i>
-        <a href="#">Twitter</a>
+        <a class="text-white" href="#">Twitter</a>
     </div>
     <div class="youtube">
       <i class="fab fa-youtube"></i>
-        <a href="#">Youtube Channel</a>
+        <a class="text-white" href="#">Youtube Channel</a>
     </div>
   </div>
 
@@ -330,7 +330,7 @@
 </div>
 </div>
 <div class="copyright text-center text-white" style="padding-bottom: 20px;">
-    <h6>Copyright 2019 Mentoring.ID.All right reserved</h6>
+    <h6>Copyright 2019 Satgas.Covid .All right reserved</h6>
 </div>
 </footer>
 
