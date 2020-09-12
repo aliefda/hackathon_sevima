@@ -256,11 +256,6 @@
            </div>
            <div class="col-md-6">
             <div class="form-group">
-              <input type="text" name="subject" class="form-control" placeholder="Judul / Subjek *" maxlength="100" required="">
-            </div>
-           </div>
-           <div class="col-md-6">
-            <div class="form-group">
               <textarea name="message" class="form-control" rows="6" placeholder="Isi Pesan *" maxlength="400" required></textarea>
             </div>
            </div>
@@ -312,10 +307,6 @@
     <div class="twitter">
       <i class="fab fa-twitter"></i>
         <a class="text-white" href="#">Twitter</a>
-    </div>
-    <div class="youtube">
-      <i class="fab fa-youtube"></i>
-        <a class="text-white" href="#">Youtube Channel</a>
     </div>
   </div>
 
