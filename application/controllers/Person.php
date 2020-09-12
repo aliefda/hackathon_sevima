@@ -1,8 +1,9 @@
 <?php
-require APPPATH . 'libraries/REST_Controller.php';
-use Restserver\Libraries\REST_Controller;
 
-class Person extends REST_Controller{
+use chriskacerguis\RestServer\RestController;
+
+
+class Person extends RestController{
 // construct
   public function __construct(){
     parent::__construct();
