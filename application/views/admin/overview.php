@@ -33,10 +33,10 @@
 </div>
 </nav>
 
-<div class="container" style="padding-bottom: 15px; padding-top: 60px;">
+<div class="container" style="padding-bottom: 15px; padding-top: 70px;">
   <div class="row">
     <div class="image col-lg-6" style="right: 10px;">
-      <img src="https://corona.wonosobokab.go.id/theme/images/image_4.png" alt="logo" width="500" height="300">
+      <img src="https://corona.wonosobokab.go.id/theme/images/image_4.png" alt="logo" width="450" height="300">
     </div>
     <div class="desc col-lg-6">
       <h2>Satgas Covid-19</h2>
@@ -211,7 +211,7 @@
   </div>
 </div>
 
-<section id="homepage" class="home page-section parallax-1 overlay-light-alpha-10" style="padding-top: 70px;">
+<section id="homepage" style="padding-top: 70px;">
 	<div class="table-content">
 		<div class="text-center">
 			<h2><span class="">Hubungi kami di Call Center </br></br></span></h2>
@@ -228,54 +228,112 @@
 
 <div class="my-5"></div>
 
-<div class="row">
-	<div class="col-md-8 col-md-offset-2">
+<div class="mx-auto">
 			<div class="blog-item clearfix">						
-				<div class="comments-heading text-center mb-30">
+				<div class="comments-heading text-center">
 					<hgroup>
-						<h2 class="font-face1 section-heading">Contact</h2>
+						<h2 class="">Contact Info</h2>
 					</hgroup>									
 				</div>
 				<form method="post" action="https://corona.wonosobokab.go.id/contact/send" role="form" class="form">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								 <input type="text" name="name" class="full_width" placeholder="Name *" maxlength="100" required="">										
-						  </div>
-				    </div>
-
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" name="hp" class="full_width" placeholder="Masukkan Nomor HP *" maxlength="100" required="">									
-							</div>
-						</div>
-					
-						<div class="col-md-12">
-							<div class="form-group">
-								<input type="email" name="email" class="full_width" placeholder="Email *" maxlength="100" required="">									
-							</div>
-						</div>
-                      
-            <div class="col-md-12">
-							<div class="form-group">
-								<input type="text" name="subject" class="full_width" placeholder="Judul / Subjek *" maxlength="100" required="">									
-							</div>
-						</div>
-                      
-            <div class="col-md-12">
-							<div class="form-group">
-								<textarea name="message" class="full_width" rows="6" placeholder="Isi PEsan *" maxlength="400" required></textarea>										
-							</div>
-						</div>
-            
-            <div class="col-md-12 center-xs">
-							<button type="submit" class="btn bg-black white-color">
-								Submit
-							</button>
-						</div>	
-						</div>		
+					<form>
+          <center>
+           <div class="col-md-6"> 
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Name *" maxlength="100" required="">
+            </div>
+           </div>
+           <div class="col-md-6"> 
+            <div class="form-group">
+              <input type="text" name="hp" class="form-control" placeholder="Masukkan no handphone *" maxlength="100" required="" >
+            </div>
+           </div>
+           <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Email *" maxlength="100" required="">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+           </div>
+           <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" placeholder="Judul / Subjek *" maxlength="100" required="">
+            </div>
+           </div>
+           <div class="col-md-6">
+            <div class="form-group">
+              <textarea name="message" class="form-control" rows="6" placeholder="Isi Pesan *" maxlength="400" required></textarea>
+            </div>
+           </div>
+            <button type="submit" class="btn btn-primary" style="width:150px;">Submit</button>
+          </center>
           </form>
-        </div>
+        </form>
+      </div>
+</div>
+
+<div class="my-5"></div>
+
+<footer style="padding-top:50px; background-color: #5CACFE;">
+<div class="container" style="padding-bottom: 50px;">
+<div class="row text-center">
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="duaempat text-white">
+      <p>Layanan Kami</p>
+    </div>
+    <div class="dualima text-white">
+      <a href="#">Satgas.Covid</a>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="duatujuh text-white">    
+      <p>Tentang Kami</p>
+    </div>
+    <div class="duasembilan text-white">
+      <a href="#">Profile</a>
+    </div>
+    <div class="tigapuluh text-white">
+      <a href="#">Kontak</a>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="tigadua text-white">
+      <p>Ikuti Kami</p>
+    </div>
+    <div class="instagram">
+      <i class="fab fa-instagram"></i>
+        <a href="#">Instagram</a>
+    </div>
+    <div class="facebook">
+      <i class="fab fa-facebook"></i>
+        <a href="#">Facebook</a>
+    </div>
+    <div class="twitter">
+      <i class="fab fa-twitter"></i>
+        <a href="#">Twitter</a>
+    </div>
+    <div class="youtube">
+      <i class="fab fa-youtube"></i>
+        <a href="#">Youtube Channel</a>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="download text-white">
+      <p>Download App</p>
+    </div>
+    <div class="playstore">
+      <a href="#"><img src="https://www.freepnglogos.com/uploads/google-play-png-logo/company-google-play-png-logo-2.png" width="150px;"></a>
+    </div>
+  </div>
+</div>
+</div>
+<div class="copyright text-center text-white" style="padding-bottom: 20px;">
+    <h6>Copyright 2019 Mentoring.ID.All right reserved</h6>
+</div>
+</footer>
+
 
           
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
