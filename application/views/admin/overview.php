@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.php">
+    <link href="<?php echo base_url('assets')?>" rel="stylesheet"> 
 
     <title>Satgas.Covid</title>
   </head>                                               
 <body>
 
 <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top shadow">
-  <a class="navbar-brand" href="#"><img src="1.png"> alt="logo satgas.covid"></a>
+  <a class="navbar-brand" href="#"><img src=""> alt="logo satgas.covid"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,11 +27,8 @@
         <a class="nav-link" href="#">Informasi</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Hubungi Kami</a>
+        <a class="nav-link" href="callcenter">Hubungi Kami</a>
       </li>
-      <li style="padding-top: 10px;">
-        <a href="javascript:void(0)" class="btn-search"><span class="fa fa-search"></span>
-      </a></li>
     </ul> 
   </div>
 </div>
@@ -39,13 +37,13 @@
 <div class="container" style="padding-bottom: 15px; padding-top: 60px;">
   <div class="row">
     <div class="image col-lg-6" style="right: 10px;">
-      <img src="img/layer2.png" alt="gambar mentoring" class="img-fluid">
+      <img src="assets/img/1.png" alt="gambar covid" class="img-fluid">
     </div>
     <div class="desc col-lg-6">
-      <h4>Satgas Covid<br>Wonosobo</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Nulla euismod erat lorem, vel ornare neque tincidunt sed.<br>Interdum</p>
+      <h2>Satgas Covid-19</h2>
+      <p>Satgas covid yang bertugas untuk mengedukasi dan memberikan informasi kepada masyarakat tentang penyebaran covid yang terjadi di wonosobo</p>
     <div class="but">
-      <a class="btn btn-primary btn-lg shadow-sm" href="#" role="button"></a>
+      <a class="btn btn-primary btn-lg shadow-sm" href="#" role="button">MORE INFORMATION</a>
     </div>
     </div>
   </div>
@@ -54,17 +52,12 @@
 <div class="my-5"></div>
 
 <div class="container relative">
-		<center>
-      <h2><span class="label label-primary">Pusat  Informasi  Covid-19  </span></h2>
-    </center>
-		<center><h2><span class="label label-primary">TANGGAL 12-09-2020  </span></h2></center>
+      <h2 class="text-center"><span class="label label-primary">Pusat  Informasi  Covid-19  </span></h2>
 						<br>
 						<br>
 						<div class="row">
-							
 							<div class="col-lg-3 col-xs-6">
-								
-								<div class="small-box bg-yellow">
+								<div class="card bg-warning text-white">
 									<div class="inner">
 										<center>
 										<h2>48,881</h2>
@@ -73,14 +66,16 @@
 									</div>
 									<div class="icon">
 										<i class="ion ion-bag"></i>
-									</div>
-									<a  class="small-box-footer">Data ODR<i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
+                  <div class="card-footer">
+                    <a>Data ODR <i class="fa fa-arrow-circle-right"></i></a>
+                  </div>
 								</div>
 							</div>
 							<!-- Column -->
 							<div class="col-lg-3 col-xs-6">
 								
-								<div class="small-box bg-blue">
+								<div class="card bg-primary text-white">
 									<div class="inner">
 										<center>
 										<h2>3,261</h2>
@@ -88,16 +83,18 @@
 										</center>
 									</div>
 									<div class="icon">
-										<i class="ion ion-stats-bars"></i>
-									</div>
-									<a class="small-box-footer">Data Suspek<i class="fa fa-arrow-circle-right"></i></a>
+										<i class="ion ion-bag"></i>
+                  </div>
+                  <div class="card-footer">
+                    <a>Data ODR <i class="fa fa-arrow-circle-right"></i> </a>
+                  </div>
 								</div>
 							</div>
 							<!-- ./col -->
 							<!-- ./col -->
 							<div class="col-lg-3 col-xs-6">
 								
-								<div class="small-box bg-green">
+								<div class="card bg-success text-white">
 									<div class="inner">
 										<center>
 										<h2>19</h2>
@@ -105,14 +102,16 @@
 										</center>
 									</div>
 									<div class="icon">
-										<i class="ion ion-pie-graph"></i>
+										<i class="ion ion-bag"></i>
 									</div>
-									<a class="small-box-footer">Data Probable<i class="fa fa-arrow-circle-right"></i></a>
+                  <div class="card-footer">
+                    <a>Data ODR <i class="fa fa-arrow-circle-right"></i> </a>
+                  </div>
 								</div>
 							</div>
 							<div class="col-lg-3 col-xs-6">
 								
-								<div class="small-box bg-red">
+								<div class="card bg-danger text-white">
 									<div class="inner">
 										<center>
 										<h2>406</h2>
@@ -120,70 +119,24 @@
 										</center>
 									</div>
 									<div class="icon">
-										<i class="ion ion-person-add"></i>
+										<i class="ion ion-bag"></i>
 									</div>
-									<a  class="small-box-footer">Data Konfirmasi<i class="fa fa-arrow-circle-right"></i></a>
+                  <div class="card-footer">
+                    <a>Data ODR <i class="fa fa-arrow-circle-right"></i> </a>
+                  </div>
 								</div>
-							</div>
-							
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box">
-									<span class="info-box-icon bg-yellow"><h4><br>ODR</h4></i></span>
-									<div class="info-box-content">
-										</br>
-										<span ><b>3,261</b>&nbsp;&nbsp;&nbsp;&nbsp;Suspek</span></br>
-										<span ><b>19</b>&nbsp;&nbsp;&nbsp;&nbsp;Probable</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box">
-									<span class="info-box-icon bg-blue"><h4><br>SUSPEK</h4></i></span>
-									<div class="info-box-content">
-										</br>
-										<span ><b>17</b>&nbsp;Dirawat</span></br>
-										<span ><b>111</b>&nbsp;Isolasi Mandiri</span></br>
-										<span ><b>3,114</b>&nbsp;Discarded</span></br>
-									
-									</div>
-								</div>
-							</div>
-						
-							<div class="clearfix visible-sm-block"></div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box">
-									<span class="info-box-icon bg-green"><h5><br>PROBABLE</h5></i></span>
-									
-									<div class="info-box-content">
-									    </br>
-									    
-										<span ><b>19</b>&nbsp;Probable</span></br>
-						
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								<div class="info-box">
-									<span class="info-box-icon bg-red"><h5><br>Konfirmasi</h5></i></span>
-									<div class="info-box-content">
-									
-										<span ><b>217</b>&nbsp;Dirawat</span></br>
-										<span ><b>184</b>&nbsp;Sembuh</span></br>
-										<span ><b>5</b>&nbsp;Meninggal</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						  
+              </div>
+            </div>
+
+            <div class="my-5"></div>
+
 								<div class="alert alert-warning">
 									<h4>ODR</h4>
-
-									<p style align="justify">Semua pelaku perjalanan dari wilayah terjangkit atau memiliki riwayat perjalanan dari daerah transmisi lokal .</p>
+									<p style="align:justify;">Semua pelaku perjalanan dari wilayah terjangkit atau memiliki riwayat perjalanan dari daerah transmisi lokal .</p>
 								</div>
 								<div class="alert alert-primary">
 									<h4>KASUS SUSPEK</h4>
-									<p align="justify">Orang dengan ISPA da pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di wilayah yang melaporkan transmisi.</p>
+									<p align= 'justify'>Orang dengan ISPA da pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di wilayah yang melaporkan transmisi.</p>
 									
 									<p align="justify">Orang dengan salah satu gejala/tanda ISPA* dan pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi/probable covid-19.</p>
 									
@@ -196,16 +149,53 @@
 								<div class="alert alert-danger">
 									<h4>KASUS KONFIRMASI</h4>
 									<p align="justify">Seseorang yang dinyatakan positif terinfeksi virus covid-19 yang dibuktikan dengan pemeriksaan laboratorium RT-PCR.</p>
-								</div>
-							
-
+                </div>
 					</div>
-				</section>
+        </section>
+<div class="container-fluid" style="background: linear-gradient(to right, #4FA5FD, #61AEFE); -webkit-clip-path: polygon(100% 0, 100% 93%, 0 100%, 0 7%);">
+  <div class="text-center" style="padding-top: 150px;">
+    <form class="search" style="background-repeat: no-repeat; background-position: 98% 10px; background-size: 18px;">
+      <input type="text" placeholder="Telusuri mentor atau topik" class="img-fluid">
+    </form>
+  </div>
+
+  <div class="tpc text-center">
+      <h1>Topic Pilihan Terkini</h1>
+  </div>
+  <div class="container" style="padding-bottom: 70px;">
+    <center>
+      <div style="width: 260px;display: inline-block; ">
+        <div class="topic img-fluid">
+          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 6.png" id="bg1"></a> 
+          <p>Modeling Photography<br>Oleh Darwis Triadi</p>
+        </div>
+      </div>
+      <div style="width: 260px;display: inline-block; ">
+        <div class="topic img-fluid">
+          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 7.png" id="bg1"></a> 
+          <p>Enterpreneur Milenial<br>Oleh Ayu Maharani</p>
+        </div>
+      </div>
+      <div style="width: 260px;display: inline-block; ">
+        <div class="topic img-fluid">
+          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 8.png" id="bg1"></a> 
+          <p>Bisnis Startup<br>Oleh Mark Zuckerberg</p>
+        </div>
+      </div>
+      <div style="width: 260px;display: inline-block;margin-bottom: 100px; ">
+        <div class="topic img-fluid">
+          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 9.png" id="bg1"></a> 
+          <p>Menjadi Trader Forex<br>Oleh John Boy</p>
+        </div>
+      </div>
+    </center>
+  </div>
+</div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
