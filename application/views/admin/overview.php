@@ -6,15 +6,14 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.php">
-    <link href="<?php echo base_url('assets')?>" rel="stylesheet"> 
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/style.css"/>
 
     <title>Satgas.Covid</title>
   </head>                                               
 <body>
 
 <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top shadow">
-  <a class="navbar-brand" href="#"><img src=""> alt="logo satgas.covid"></a>
+  <a class="navbar-brand" href="#"> <img src="https://corona.wonosobokab.go.id/theme/images/logo-black.png" width="90" height="70" alt="logo satgas.covid"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,11 +36,11 @@
 <div class="container" style="padding-bottom: 15px; padding-top: 60px;">
   <div class="row">
     <div class="image col-lg-6" style="right: 10px;">
-      <img src="assets/img/1.png" alt="gambar covid" class="img-fluid">
+      <img src="https://corona.wonosobokab.go.id/theme/images/image_4.png" alt="logo" width="500" height="300">
     </div>
     <div class="desc col-lg-6">
       <h2>Satgas Covid-19</h2>
-      <p>Satgas covid yang bertugas untuk mengedukasi dan memberikan informasi kepada masyarakat tentang penyebaran covid yang terjadi di wonosobo</p>
+      <p>Satgas covid yang bertugas untuk mengedukasi dan memberikan informasi kepada masyarakat tentang penyebaran covid yang sedang terjadi.</p>
     <div class="but">
       <a class="btn btn-primary btn-lg shadow-sm" href="#" role="button">MORE INFORMATION</a>
     </div>
@@ -150,42 +149,42 @@
 									<h4>KASUS KONFIRMASI</h4>
 									<p align="justify">Seseorang yang dinyatakan positif terinfeksi virus covid-19 yang dibuktikan dengan pemeriksaan laboratorium RT-PCR.</p>
                 </div>
-					</div>
-        </section>
+          </div>
+
 <div class="container-fluid" style="background: linear-gradient(to right, #4FA5FD, #61AEFE); -webkit-clip-path: polygon(100% 0, 100% 93%, 0 100%, 0 7%);">
   <div class="text-center" style="padding-top: 150px;">
-    <form class="search" style="background-repeat: no-repeat; background-position: 98% 10px; background-size: 18px;">
-      <input type="text" placeholder="Telusuri mentor atau topik" class="img-fluid">
+    <form class="search" style="	padding-left: 23px; font-size: 13px; color: #A9A9A9; width: 700px; height: 40px;border: 1px solid white; border-radius: 30px; outline: none; transition: .3s;"> 
+      <input type="text" placeholder="Telusuri info atau topik" class="img-fluid">
     </form>
   </div>
 
-  <div class="tpc text-center">
-      <h1>Topic Pilihan Terkini</h1>
+  <div class="tpc text-center text-white">
+      <h1>Informasi Terkini</h1>
   </div>
   <div class="container" style="padding-bottom: 70px;">
     <center>
       <div style="width: 260px;display: inline-block; ">
-        <div class="topic img-fluid">
-          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 6.png" id="bg1"></a> 
-          <p>Modeling Photography<br>Oleh Darwis Triadi</p>
+        <div class="topic img-fluid text-white">
+          <a href="https://covid19.go.id/p/berita/infografis-covid-19-11-september-2020" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 6.png" id="bg1"></a> 
+          <p>Informasi perkembangan covid<br>11 September 2020</p>
         </div>
       </div>
       <div style="width: 260px;display: inline-block; ">
-        <div class="topic img-fluid">
-          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 7.png" id="bg1"></a> 
-          <p>Enterpreneur Milenial<br>Oleh Ayu Maharani</p>
+        <div class="topic img-fluid text-white">
+          <a href="https://covid19.go.id/p/berita/jubir-covid-lima-minggu-terakhir-dki-zona-merah" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 7.png" id="bg1"></a> 
+          <p>Informasi perkembangan covid<br>10 September 2020</p>
         </div>
       </div>
       <div style="width: 260px;display: inline-block; ">
-        <div class="topic img-fluid">
-          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 8.png" id="bg1"></a> 
-          <p>Bisnis Startup<br>Oleh Mark Zuckerberg</p>
+        <div class="topic img-fluid text-white">
+          <a href="https://covid19.go.id/p/berita/kasus-aktif-di-indonesia-masih-lebih-baik-dari-rata-rata-dunia" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 8.png" id="bg1"></a> 
+          <p>Informasi perkembangan covid<br>10 September 2020</p>
         </div>
       </div>
       <div style="width: 260px;display: inline-block;margin-bottom: 100px; ">
-        <div class="topic img-fluid">
-          <a href="" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 9.png" id="bg1"></a> 
-          <p>Menjadi Trader Forex<br>Oleh John Boy</p>
+        <div class="topic img-fluid text-white">
+          <a href="https://covid19.go.id/p/berita/standarisasi-harga-tes-pcr-sedang-dirumuskan" id="isi"><img src="img/layer11.png" id="gambarlogo"><img src="img/rectangle3.png" id="bg2"><img src="img/layer 9.png" id="bg1"></a> 
+          <p>Informasi perkembangan covid<br>10 September 2020</p>
         </div>
       </div>
     </center>

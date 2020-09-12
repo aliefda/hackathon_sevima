@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Muli');
+
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	padding: .8rem;
+}
+
+.navbar-nav {
+	padding-right: 20px;
+}
+
+.nav-link {
+	font-family: 'Muli',sans-serif;
+	font-size: 13px;
+	margin-left: 45px;
+	margin-top: 5px;
+}
+
+.navbar-brand img {
+	margin-left: 45px;
+}
+
+.button button {
+	background-color: #F8883C;
+	border: 1px solid #F8883C;
+	margin-left: 45px;
+	margin-right: 30px;
+	width: 130px;
+	margin-top: 7px;
+	font-size: 12px;
+}
+
+.image img {
+	margin-top: 50px;
+	margin-left: 5px;
+	width: 100%;	
+}
+
+.desc h4 {
+	margin-top: 135px;
+	margin-left: 30px;
+	font-family: 'Libre Baskerville',serif;
+	font-size: 29px;
+	letter-spacing: 1px;
+	line-height: 38px;
+}
+
+
+.desc p {
+	margin-top: 20px;
+	margin-left: 30px;
+	font-family: 'Muli',sans-serif;
+	font-size: 12px;
+	width: 350px;
+	letter-spacing: -.3px;
+	line-height: 180%;
+	color: #7E7E7E;
+}
+
+.but a {
+	margin-top: 23px;
+	margin-left: 30px;
+	font-size: 12px;
+	width: 140px;
+	background-color: #F8883C;
+	border: 1px solid #F8883C;
+	font-family: 'Muli',sans-serif bold;
+}
+
+.choose1 {
+	margin-top: 70px;
+	font-family: 'Muli',sans-serif;
+}
+
+.choose1 h3 {
+ 	margin-top: 30px;
+ 	font-size: 24px;
+}
+
+.choose1 p {
+	font-size: 13px;
+	margin-top: 15px;
+	color: #7E7E7E;
+	word-spacing: 1px;
+}
+
+.choose2 {
+	margin-top: 51px;
+	font-family: 'Muli',sans-serif;
+}
+
+.choose2 h3 {
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+.choose2 p {
+	font-size: 13px;
+	margin-top: 15px;
+	color: #7E7E7E;
+	word-spacing: 1px;
+}
+
+.choose2 img {
+	margin-right: 20px;
+}
+
+.choose3 {
+	margin-top: 8px;
+	font-family: 'Muli',sans-serif;
+}
+
+.choose3 h3 {
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+.choose3 p {
+	font-size: 13px;
+	margin-top: 15px;
+	color: #7E7E7E;
+	word-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.choose3 img {
+	margin-top: 15px;
+	margin-left: -80px;
+	margin-bottom: -31px;
+}
+
+iframe {
+	margin-top: 80px;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+}
+
+.search input[type=text]{
+	padding-left: 23px;
+	font-size: 13px;
+	color: #A9A9A9;
+	width: 700px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 30px;
+	outline: none;
+	transition: .3s;
+}
+.search input{
+	background-repeat: no-repeat;
+	background-image: url("img/icon.png");
+    background-position: 98% 10px;
+    background-size: 18px;
+}
+#bg1{
+	position: relative;
+	border-radius: 10px;
+	z-index: 1;	
+	width: 250px;
+	height: 150px;
+}
+
+#gambarlogo{
+	position: absolute;
+	z-index: 3;	
+	margin-top: 50px;
+	height: 50px;
+	width: 90px;
+	margin-left: 80px;
+}
+
+#isi:hover #gambarlogo{
+	display: none;	
+}
+
+#isi:hover #bg2{
+	display: none;
+}
+
+#bg2{
+	position: absolute;
+	z-index: 2;
+	opacity: 0.5;
+	width: 250px;
+	height: 150px;
+	border-radius: 10px;	
+}
+
+.tpc h1 {
+	font-size: 24px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	font-family: 'Muli',sans-serif;
+	color: #FFFFFF;	
+}
+
+.topic p {
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+.duabelas h4 {
+	font-family: 'Libre Baskerville',serif;
+	margin-top: 180px;
+	margin-left: 30px;
+	font-size: 29px;
+	letter-spacing: 1px;
+	line-height: 38px;
+}
+
+.duabelas p {
+	margin-top: 20px;
+	margin-left: 30px;
+	font-family: 'Muli',sans-serif;
+	font-size: 12px;
+	width: 350px;
+	letter-spacing: -.3px;
+	line-height: 180%;
+	color: #7E7E7E;
+}
+
+.tigabelas {
+	margin-top: 23px;
+	margin-left: 30px;
+}
+
+.tigabelas .btn {
+	font-family: 'Muli',sans-serif;
+	width: 100px;
+	margin-right: 10px;
+	font-size: 12px;
+	height: 30px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.empatbelas img {
+	margin-top: 100px;
+	margin-bottom: 90px;
+}
+
+.favorite h3 {
+	padding-top: 100px;
+	font-family: 'Muli',sans-serif;
+	color: #FFFFFF;
+	font-size: 24px;
+	display: inline-block;
+}
+
+.mentor {
+	font-family: 'Muli',sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+
+.liputan h3 {
+	font-family: 'Muli',sans-serif;
+	margin-right: 20px;
+	margin-left: 15px;
+	margin-top:100px; 
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+
+.duapuluh img {
+	margin-top: 40px;
+	width: 55%;
+	margin-left: 15px;
+}
+
+.duasatu img {
+	margin-top: 40px;
+	width: 55%;	
+	margin-left: 15px;
+}
+
+.duadua img {
+	margin-top: 40px;
+	width: 55%;
+	margin-left: 15px;
+}
+
+.duatiga img {
+	margin-top: 40px;
+	padding-bottom: 100px;
+	width: 55%;
+	margin-left: 15px;
+}
+
+footer {
+	font-family: 'Muli',sans-serif;
+	color: #FFFFFF;
+	background-color: #252525;
+}
+
+.duaempat p {
+	margin-top: 70px;
+	font-size: 18px;
+}
+
+.dualima a {
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 2;
+	margin-right: 60px;
+}
+
+.duaenam a {
+	color: #FFFFFF;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+.duatujuh p {
+	margin-top: 70px;
+	font-size: 18px;
+}
+
+.duadelapan a {
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 2.3;
+	margin-right: 85px;
+}
+
+.duasembilan a {
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 2.3;
+	margin-right: 75px;
+}
+
+.tigapuluh a {
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 2.5;
+	margin-right: 70px;
+}
+
+.tigasatu a {
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-right: 81px;
+}
+
+.tigadua p {
+	font-size: 18px;
+	margin-top: 70px;
+	margin-right: 27px;
+}
+
+.instagram a {
+	font-style: 'Muli',sans-serif;
+	color: #FFFFFF;
+	margin-left: 5px;
+	font-size: 12px; 
+	margin-right: 28px;
+}
+
+.fa-instagram {
+	margin-bottom: 13px;
+}
+
+.facebook a {
+	font-style: 'Muli',sans-serif;
+	color:#FFFFFF;
+	margin-left: 5px;
+	font-size: 12px;
+	margin-right: 30px;
+}
+
+.fa-facebook {
+	margin-bottom: 13px;
+}
+
+.twitter a {
+	font-style: 'Muli',sans-serif;
+	color:#FFFFFF;
+	margin-left: 5px;
+	font-size: 12px;
+	margin-right: 45px;
+}
+
+.fa-twitter {
+	margin-bottom: 13px;
+}
+
+.youtube a {
+	font-style: 'Muli',sans-serif;
+	color:#FFFFFF;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.fa-youtube {
+	margin-left: 10px;
+}
+
+.download p {
+	margin-top: 70px;
+	font-size: 18px; 
+}
+
+.playstore img {
+	width: 130px;
+}
+
+.appstore img {
+	width: 130px;
+	margin-top: 10px;
+}
+
+.copyright {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.copyright h6 {
+	font-size: 12px;
+}
